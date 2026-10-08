@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomeCare360 — Find Trusted Services in Ghana</title>
+  <meta name="description" content="Find, compare and book trusted service providers in Ghana. Electricians, plumbers, barbers, photographers and more." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">HC</span>
+        <span class="logo-text">HomeCare<span class="accent">360</span></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="workers.html">Find Providers</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="become-provider.html">Become a Provider</a></li>
+          <li><a href="login.html" class="btn-outline">Login</a></li>
+          <li><a href="register.html" class="btn-primary small">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Find Trusted Professionals Near You</h1>
+      <p class="hero-sub">Discover, compare and book reliable service providers across Ghana — in minutes.</p>
+
+      <form class="search-box" onsubmit="event.preventDefault(); window.location.href='workers.html';">
+        <div class="search-field">
+          <label for="q">What service do you need?</label>
+          <input id="q" type="text" placeholder="Electrician, Barber, Plumber, Photographer…" />
+        </div>
+        <div class="search-field">
+          <label for="loc">Where?</label>
+          <input id="loc" type="text" placeholder="Accra, Kumasi, Takoradi…" />
+        </div>
+        <button type="submit" class="btn-primary search-btn">Search</button>
+      </form>
+
+      <div class="hero-trust">
+        <span>✓ Verified providers</span>
+        <span>🔒 Secure payments</span>
+        <span>⭐ Real reviews</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POPULAR SERVICES ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Popular Services</h2>
+        <a href="services.html" class="link-more">See all →</a>
+      </div>
+
+      <div class="category-grid">
+        <a href="workers.html?cat=home" class="category-card">
+          <span class="cat-icon">🔧</span>
+          <h3>Home Services</h3>
+          <p>Electricians, plumbers, carpenters</p>
+        </a>
+        <a href="workers.html?cat=beauty" class="category-card">
+          <span class="cat-icon">💇</span>
+          <h3>Beauty</h3>
+          <p>Barbers, hairdressers, makeup artists</p>
+        </a>
+        <a href="workers.html?cat=auto" class="category-card">
+          <span class="cat-icon">🚗</span>
+          <h3>Automotive</h3>
+          <p>Mechanics, car wash, tire services</p>
+        </a>
+        <a href="workers.html?cat=events" class="category-card">
+          <span class="cat-icon">📸</span>
+          <h3>Events</h3>
+          <p>Photographers, DJs, caterers</p>
+        </a>
+        <a href="workers.html?cat=tech" class="category-card">
+          <span class="cat-icon">💻</span>
+          <h3>Technology</h3>
+          <p>Phone repair, web developers</p>
+        </a>
+        <a href="workers.html?cat=edu" class="category-card">
+          <span class="cat-icon">📚</span>
+          <h3>Education</h3>
+          <p>Private tutors, music teachers</p>
+        </a>
+        <a href="workers.html?cat=clean" class="category-card">
+          <span class="cat-icon">🏠</span>
+          <h3>Cleaning</h3>
+          <p>Home and office cleaning</p>
+        </a>
+        <a href="workers.html?cat=pro" class="category-card">
+          <span class="cat-icon">💼</span>
+          <h3>Professional</h3>
+          <p>Accountants, lawyers, consultants</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <h2>How It Works</h2>
+        <p class="section-sub">From search to service in four simple steps.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Search</h3>
+          <p>Find the service you need in your area.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Compare</h3>
+          <p>Check ratings, prices and experience side by side.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Book</h3>
+          <p>Choose a date and time that works for you.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Get It Done</h3>
+          <p>Receive the service and leave a review.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PROVIDERS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured Providers</h2>
+        <a href="workers.html" class="link-more">Browse all →</a>
+      </div>
+
+      <div class="provider-grid">
+        <article class="provider-card">
+          <div class="provider-photo">JM</div>
+          <div class="provider-body">
+            <h3>John's Electrical Services</h3>
+            <p class="badge-verified">✓ Verified</p>
+            <p class="provider-meta">⚡ Electrician · 📍 Accra</p>
+            <p class="provider-rating">⭐ 4.8 <span>(126 reviews)</span></p>
+            <p class="provider-price">From <strong>GH₵100</strong></p>
+            <a href="profile.html" class="btn-primary small full">Book Now</a>
+          </div>
+        </article>
+
+        <article class="provider-card">
+          <div class="provider-photo">AB</div>
+          <div class="provider-body">
+            <h3>Ama Beauty Studio</h3>
+            <p class="badge-verified">✓ Verified</p>
+            <p class="provider-meta">💇 Makeup Artist · 📍 Kumasi</p>
+            <p class="provider-rating">⭐ 4.9 <span>(89 reviews)</span></p>
+            <p class="provider-price">From <strong>GH₵150</strong></p>
+            <a href="profile.html" class="btn-primary small full">Book Now</a>
+          </div>
+        </article>
+
+        <article class="provider-card">
+          <div class="provider-photo">KM</div>
+          <div class="provider-body">
+            <h3>Kwame Auto Repairs</h3>
+            <p class="badge-verified">✓ Verified</p>
+            <p class="provider-meta">🔧 Mechanic · 📍 Takoradi</p>
+            <p class="provider-rating">⭐ 4.7 <span>(74 reviews)</span></p>
+            <p class="provider-price">From <strong>GH₵200</strong></p>
+            <a href="profile.html" class="btn-primary small full">Book Now</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <h2>Why Choose HomeCare360?</h2>
+      </div>
+
+      <div class="features">
+        <div class="feature"><span>✓</span><p>Verified providers</p></div>
+        <div class="feature"><span>💰</span><p>Transparent pricing</p></div>
+        <div class="feature"><span>📅</span><p>Easy booking</p></div>
+        <div class="feature"><span>🔒</span><p>Secure payments</p></div>
+        <div class="feature"><span>⭐</span><p>Real customer reviews</p></div>
+        <div class="feature"><span>🔔</span><p>Appointment reminders</p></div>
+        <div class="feature"><span>🛡</span><p>Customer support</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BECOME A PROVIDER CTA ===== -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <h2>Grow Your Service Business</h2>
+      <p>Get discovered by customers actively looking for what you do.</p>
+      <a href="become-provider.html" class="btn-primary">Join as a Provider</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>HomeCare360</h4>
+        <p class="muted">Trusted services, one booking away.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="become-provider.html">Become a Provider</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="help.html">Help Centre</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="dispute-policy.html">Disputes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 HomeCare360. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
